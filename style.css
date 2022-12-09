@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+h1, h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body{
+    background-image: url(./background_image.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+
+}
+
+h3{
+    color: white;
+}
+
+.divbuyuk{
+    background-color:rgba(0, 0, 0, 0.314);
+    padding: 0px 400px;
+    margin: 10px 100px;
+}
+
+
+
+
+form{
+    background-color: rgba(0, 0, 0, 0.705);
+    width: fit-content;
+    margin: 10px auto;
+    padding: 20px;
+    color: white;
+}
+
+.inputs{
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.labels{
+    display: block;
+}
+
+.btn-container{
+    text-align: center;
+
+}
+
+.btn-container input{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: 1px;
+}
